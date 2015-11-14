@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ToggleButton">
+        <!-- 当前开关状态的属性, 取值类型为boolean-->
+        <attr name="currentState" format="boolean" />
+
+        <!-- 开关背景图片的属性, 取值类型为: R文件的引用id -->
+        <attr name="switchBackgroundID" format="reference" />
+
+        <!-- 开关滑动块的背景属性, 取值类型为: R文件的引用id -->
+        <attr name="slideButtonBackgroundID" format="reference" />
+    </declare-styleable>
+</resources>
